@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="path/to/style.css">
+    <title>Company Profile</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#profile">Our Profile</a></li>
+            <li><a href="index.html#team">Our Team</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Welcome to Our Website</h1>
+        <h2 id="welcome-message">Hi <span id="user-name"></span></h2>
+    </header>
+
+    <section id="profile">
+        <div class="photo-banner">
+            <img src="img/starry-night.jpg" alt="Banner Image">
+            <h5 style="color: rgb(255, 255, 255)"> Selamat datang! ini merupakan platform yang didedikasikan untuk Ilmu Pengetahuan.</h5>
+        </div>
+    </section>
+    <section id="team">
+        <h3>Meet Our Team</h3>
+        <div class="team-container">
+            <div class="team-member">
+                <img src="our-member/gotou.jpg" alt="Team Member 1">
+                <h4>Gotou Hitori</h4>
+                <p>Product Owner</p>
+            </div>
+            <div class="team-member">
+                <img src="our-member/ikuyo.jpg" alt="Team Member 1">
+                <h4>Kita Ikuyo</h4>
+                <p>Team Leader</p>
+            </div>
+            <div class="team-member">
+                <img src="our-member/nijika.jpg" alt="Team Member 2">
+                <h4>Ijichi Nijika</h4>
+                <p>Project Manager</p>
+            </div>
+            <div class="team-member">
+                <img src="our-member/ryou.jpg" alt="Team Member 3">
+                <h4>Yamada Ryou</h4>
+                <p>Software Developer</p>
+            </div>
+        </div>
+    </section>
+    
+
+
+<br><br>
+
+
+    <section id="contact">
+        <h3>Message Us</h3>
+        <form id="contact-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+    
+            <label for="birthdate">Tanggal Lahir:</label>
+            <input type="date" id="birthdate" required>
+    
+            <label>Jenis Kelamin:</label>
+            <label>
+                <input type="radio" name="gender" value="Laki-laki" required>Laki-laki
+            </label>
+            <label>
+                <input type="radio" name="gender" value="Perempuan" required>Perempuan
+            </label><br>
+    
+            <label for="message">Pesan:</label>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+        <div id="form-output"></div>
+    </section>
+    
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

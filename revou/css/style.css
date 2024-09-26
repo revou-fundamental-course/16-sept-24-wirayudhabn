@@ -1,0 +1,320 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #333; /* Dark grey background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center the menu items */
+}
+
+nav ul li {
+    margin: 0 15px; /* Space between items */
+}
+
+nav ul li a {
+    color: #e0e0e0; /* Light grey text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding for clickable area */
+    transition: background-color 0.3s, color 0.3s; /* Transition for hover effect */
+}
+
+nav ul li a:hover {
+    background-color: #444; /* Darker grey background on hover */
+    color: #ffffff; /* White text on hover */
+    border-radius: 5px; /* Rounded corners for hover effect */
+}
+
+
+
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+.photo-banner img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.about-company, .about-team {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+#form-output {
+    margin-top: 10px;
+    color: green;
+}
+
+
+
+header {
+    background-color: #ffffff; /* white background */
+    color: #000000; /* Light grey text color */
+    text-align: center;
+    padding: 40px 20px; /* Padding for header */
+    
+}
+
+h1 {
+    font-size: 2.5rem; /* Size for main heading */
+    margin: 0; /* Remove default margin */
+}
+
+h2 {
+    font-size: 1.5rem; /* Size for subheading */
+    margin: 10px 0 0 0; /* Margin for spacing */
+    color: #ffffff; /* White text for welcome message */
+}
+
+#user-name {
+    font-weight: bold; /* Bold for user name */
+    color: #101177; /* Yellow color for user name */
+}
+
+
+
+
+
+/* Styling untuk section profil dengan nuansa gelap */
+#profile {
+    background-color: #1a1a1a; /* Warna latar belakang gelap */
+    color: #e0e0e0; /* Warna teks abu-abu terang */
+    padding: 40px 20px; /* Padding di sekitar konten */
+    display: flex; /* Gunakan flexbox untuk membuat kolom */
+    justify-content: center; /* Tengah secara horizontal */
+    align-items: center; /* Tengah secara vertikal */
+    flex-direction: column; /* Tampilkan konten dalam kolom */
+}
+
+
+.photo-banner img {
+    width: 100%; /* Gambar responsif */
+    border-radius: 10px; /* Gambar dengan sudut melengkung */
+    margin-bottom: 20px; /* Jarak antara gambar dan teks */
+}
+
+.photo-banner h5 {
+    font-size: 1.2rem; /* Ukuran font untuk teks deskripsi */
+    margin: 0;
+    color: #ffffff; /* Warna teks putih */
+}
+
+@media (max-width: 768px) {
+    .photo-banner {
+        padding: 15px; /* Sesuaikan padding untuk layar kecil */
+    }
+}
+
+@media (max-width: 480px) {
+    .photo-banner h5 {
+        font-size: 1rem; /* Ukuran teks lebih kecil pada layar mobile */
+    }
+}
+
+
+
+
+
+
+#team {
+    text-align: center; /* Center the text */
+    padding: 40px 20px; /* Add padding */
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+h3 {
+    margin-bottom: 30px; /* Spacing below the heading */
+}
+
+.team-container {
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: center; /* Center the members */
+    gap: 20px; /* Space between team members */
+}
+
+.team-member {
+    background-color: #ffffff; /* White background for member cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside each member card */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 200px; /* Fixed width for member cards */
+}
+
+.team-member img {
+    width: 100%; /* Make image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 10px; /* Spacing below the image */
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        width: 150px; /* Adjust width for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .team-member {
+        width: 120px; /* Adjust width for mobile screens */
+    }
+}
+
+#team {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4; /* Background for the team section */
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between team members */
+}
+
+.team-member {
+    background-color: #ffffff; /* White background for member cards */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height */
+    border-radius: 50%; /* Make image circular */
+    object-fit: cover; /* Cover image to maintain aspect ratio */
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 20px;
+}
+
+
+
+/* Media Query for Responsive Design */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column; /* Change to vertical layout */
+        align-items: center; /* Center items */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Space between items */
+    }
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+#contact {
+    background-color: #001f3f; /* Navy blue */
+    color: #ffffff; /* White text */
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    border: 1px solid #ffffff; /* White border */
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #00274d; /* Slightly lighter navy */
+    color: #ffffff;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #0056b3; /* Bright blue for button */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004494; /* Darker blue on hover */
+}
+
+#form-output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #003366; /* Darker navy for output */
+    border-radius: 4px;
+}
